@@ -1,0 +1,27 @@
+experience_history id, userId, type, date
+experience id, hours, minutes, seconds, userId
+
+user id, name, surname, username, password
+
+Auth
+http://localhost:8080/auth
+
+{
+    username, password
+}
+
+Register
+http://localhost:8080/register
+
+{
+    name, surname, username, password
+}
+
+Start Work
+http://localhost:8080/work/start
+
+End Work
+http://localhost:8080/work/end
+
+Pause Work
+http://localhost:8080/work/pause
